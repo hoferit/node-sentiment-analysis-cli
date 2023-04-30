@@ -1,17 +1,23 @@
 # Node.js CLI Sentiment Analyser
 
-A Node.js sentiment analysis program that uses the MonkeyLearn API
+This is a simple Node.js program that analyzes the sentiment of a text input using the Text Processing API. It can accept a text string or a file path as input and outputs the mood of the text as either positive, negative, or neutral along with the percentage of each.
 
-TODO:
-[x] - Learn about text-processing API
-[x] - use process.argv for user input
-[ ] - find out how to use text files to send(stretch goal?)
-[ ] - Transform response output into desired format
-[ ] - success
+## Prerequisities
 
-Goal:
-...to analyze text that you pass in on the command line (either as an additional argument or reading from a file) and print out the "mood" of the text, including:
+Only Node.js is required, no additional libraries used.
 
-whether it is positive, negative or neutral
-what percentage of each the text is
-what kind of confidence rating it has
+## How to use
+
+To analyze the sentiment of a text string, run the following command:
+
+```bash
+Copy code
+node index.js "your text here"
+```
+
+To analyze the sentiment of a text file, run the following command:
+
+```bash
+Copy code
+node index.js /path/to/your/text/file.txt
+```
