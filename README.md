@@ -8,16 +8,8 @@ Only Node.js is required, no additional libraries used.
 
 ## How to use
 
-To analyze the sentiment of a text string, run the following command:
+To analyze the sentiment of a text string or text file path eg. ./file.txt, run the following command:
 
 ```bash
-Copy code
-node index.js "your text here"
-```
-
-To analyze the sentiment of a text file, run the following command:
-
-```bash
-Copy code
-node index.js /path/to/your/text/file.txt
+node index.js
 ```

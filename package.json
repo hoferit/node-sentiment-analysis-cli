@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eslint-config-upleveled": "^4.1.8",
+    "eslint-config-upleveled": "^4.3.2",
     "typescript": "^5.0.4"
   }
 }
